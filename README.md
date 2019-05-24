@@ -44,3 +44,6 @@ O resultado da submissão vai ser sua nota ou o erro correspondente. Você pode 
 
 # OBS
 Neste estágio da aceleração não solicitamos que você nos envie o código do programa que você criou, mas recomendamos que você guarde uma cópia pois o mesmo pode ser solicitado nas próximas fases do processo.
+
+# Principais fontes
+- [CURL multipart/form-data](https://stackoverflow.com/questions/4223977/send-file-via-curl-from-form-post-in-php)
