@@ -1,0 +1,12 @@
+<script>
+    const decryptNew = (encrypted, salt) => {
+        const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+
+        return encrypted.toLowerCase().replace(/[a-z]/g, letter => {
+            const index = alphabet.indexOf(letter) - salt;
+
+            return index >= 0 ? alphabet[index] : alphabet[index + alphabet.length];
+        });
+    };
+    alert(decryptNew('r uxen mnjmurwnb. r urtn cqn fqxxbqrwp bxdwm cqnh vjtn jb cqnh ouh kh. mxdpujb jmjvb',9));
+</script>
